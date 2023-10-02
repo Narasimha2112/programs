@@ -15,6 +15,6 @@ public class GetInputFromUser
         System.out.println("Enter your mobile number:- ");
         Phno = sc.nextInt();
 
-        System.out.println( name + "Your mobile number is" +Phno);
+        System.out.println( name + " Your mobile number is " +Phno);
     }
 }
