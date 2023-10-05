@@ -5,12 +5,12 @@ public class LargestOfThreeNumbers
     public static void main(String[] args) 
     {
         int x,y,z;
-        Scanner sc = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         System.out.println("Enter the Three numbers = ");
 
-        x = sc.nextInt();
-        y = sc.nextInt();
-        z = sc.nextInt();
+        x = in.nextInt();
+        y = in.nextInt();
+        z = in.nextInt();
 
         if(x > y && x > z)
         {
