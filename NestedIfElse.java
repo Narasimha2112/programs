@@ -17,25 +17,19 @@ public class NestedIfElse
         if(marksObtained >= passingMarks)
         {
             if(marksObtained > 90)
-            {
                 grade = 'A';
-            }
+
             else if(marksObtained > 80)
-            {
                 grade = 'B';
-            }
+
             else if(marksObtained > 70)
-            {
                 grade = 'C';
-            }
+
             else if(marksObtained > 60)
-            {
                 grade = 'D';
-            }
-            else if(marksObtained > 50)
-            {
+
+            else 
                 grade = 'E';
-            }
 
             System.out.println("You passed the Eaxm and Your grade is " + grade);
         }
